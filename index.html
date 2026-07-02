@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Candy Shop – Bakery WordPress Theme</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&family=Yellowtail&family=Cabin:wght@300;400;500;600;700&family=Cormorant:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- PAGE TRANSITION -->
+  <div class="page-transition" id="pageTransition"></div>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="top-bar-overlay"></div>
+    <div class="top-bar-inner">
+      <div class="top-bar-left">
+        <span>Conditions</span>
+        <span class="dot">•</span>
+        <span>Quality</span>
+        <span class="dot">•</span>
+        <span>Stay Connected</span>
+      </div>
+      <div class="top-bar-right">
+        <span>Facebook</span>
+        <span class="dot">•</span>
+        <span>Twitter</span>
+        <span class="dot">•</span>
+        <span>Instagram</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-bg"></div>
+    <div class="header-container">
+      <div class="header-logo">
+        <a href="#">
+          <img src="https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/logo-candy.png" alt="Candy Shop">
+        </a>
+      </div>
+      <nav class="header-nav" id="headerNav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="prices.html">Prices</a></li>
+          <li class="has-submenu">
+            <a href="shop.html">Shop <i class="fas fa-chevron-down"></i></a>
+            <ul class="submenu">
+              <li><a href="shop.html">Products</a></li>
+              <li><a href="shop.html">Single Product</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-cta">
+        <a href="contact.html" class="btn btn-push">Get Started</a>
+        <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-inner">
+      <div class="hero-col hero-left-col">
+        <div class="slider-main" id="sliderMain">
+          <div class="slide active" style="background-image:url('https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/slide-01.jpg')"></div>
+          <div class="slide" style="background-image:url('https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/slide-01.jpg')"></div>
+        </div>
+        <div class="slider-sm sm-top" id="sliderSmTop">
+          <div class="slide active" style="background-image:url('https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/pricelist-06.jpg')"></div>
+          <div class="slide" style="background-image:url('https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/pricelist-05.jpg')"></div>
+        </div>
+        <div class="slider-sm sm-bottom" id="sliderSmBottom">
+          <div class="slide active" style="background-image:url('https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/focus-09.jpg')"></div>
+          <div class="slide" style="background-image:url('https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/focus-01.jpg')"></div>
+        </div>
+      </div>
+      <div class="hero-col hero-center-col">
+        <h5>Cultivating Innovation for Progress</h5>
+        <h1>Innovate Today</h1>
+        <p>Innovate Today: unleashing the power of cutting-edge technologies and forward-thinking strategies to shape a more sustainable, inclusive, and prosperous future for all.</p>
+        <a href="contact.html" class="btn btn-primary">Get Started Now</a>
+      </div>
+      <div class="hero-col hero-right-col">
+        <div class="slider-vertical" id="sliderVertical">
+          <div class="slide active" style="background-image:url('https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/vertical-01.jpg')"></div>
+          <div class="slide" style="background-image:url('https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/vertical-06.jpg')"></div>
+        </div>
+        <div class="slider-sm sm-right-top" id="sliderSmRightTop">
+          <div class="slide active" style="background-image:url('https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/pricelist-01.jpg')"></div>
+          <div class="slide" style="background-image:url('https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/pricelist-02.jpg')"></div>
+        </div>
+        <div class="slider-sm sm-right-bottom" id="sliderSmRightBottom">
+          <div class="slide active" style="background-image:url('https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/focus-04.jpg')"></div>
+          <div class="slide" style="background-image:url('https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/focus-03.jpg')"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOP -->
+  <section class="section-shop">
+    <div class="section-bg"></div>
+    <div class="container">
+      <div class="section-head">
+        <h5>Embark on a Journey of Discovery</h5>
+        <h2>One-Stop Shopping</h2>
+      </div>
+      <div class="shop-grid">
+        <div class="shop-item">
+          <div class="shop-img">
+            <img src="https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/product-01.jpg" alt="Topaz">
+          </div>
+          <h4><a href="#">Topaz</a></h4>
+          <span class="price">$59.00</span>
+        </div>
+        <div class="shop-item">
+          <div class="shop-img">
+            <img src="https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/product-01.jpg" alt="Emerald">
+          </div>
+          <h4><a href="#">Emerald</a></h4>
+          <span class="price">$50.00</span>
+        </div>
+        <div class="shop-item">
+          <div class="shop-img">
+            <img src="https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/product-01.jpg" alt="Ruby">
+          </div>
+          <h4><a href="#">Ruby</a></h4>
+          <span class="price"><del>$80.00</del> $40.00</span>
+        </div>
+        <div class="shop-item">
+          <div class="shop-img">
+            <img src="https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/product-02.jpg" alt="Jade">
+          </div>
+          <h4><a href="#">Jade</a></h4>
+          <span class="price">$110.00</span>
+        </div>
+        <div class="shop-item">
+          <div class="shop-img">
+            <img src="https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/product-02.jpg" alt="Pearl">
+          </div>
+          <h4><a href="#">Pearl</a></h4>
+          <span class="price"><del>$90.00</del> $35.00</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <div class="feature-item" style="background-image:url('https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/vertical-02.jpg')">
+      <div class="feature-overlay"></div>
+      <div class="feature-text">
+        <h4>Customer-Centric</h4>
+        <p>Embrace a transformative journey with our customer-centric service.</p>
+      </div>
+    </div>
+    <div class="feature-item" style="background-image:url('https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/vertical-04.jpg')">
+      <div class="feature-overlay"></div>
+      <div class="feature-text">
+        <h4>Crafting Excellence</h4>
+        <p>We deliver nothing short of perfection and every project becomes a masterpiece.</p>
+      </div>
+    </div>
+    <div class="feature-item" style="background-image:url('https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/vertical-03.jpg')">
+      <div class="feature-overlay"></div>
+      <div class="feature-text">
+        <h4>Empowering You</h4>
+        <p>Tools, guidance, and support to unlock all full potential remarkable outcomes.</p>
+      </div>
+    </div>
+    <div class="feature-item" style="background-image:url('https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/vertical-01.jpg')">
+      <div class="feature-overlay"></div>
+      <div class="feature-text">
+        <h4>Partner in Progress</h4>
+        <p>As a trusted collaborator, we contribute expertise, dedication to propel your goals forward.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section-services">
+    <div class="section-bg"></div>
+    <div class="container">
+      <div class="section-head">
+        <h2>Unmatched Service Excellence</h2>
+        <h5>Explore boundless opportunities</h5>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <span class="service-num" style="background:#d1344a;">1</span>
+          <div class="service-img">
+            <img src="https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/focus-01-1024x683.jpg" alt="Responsive Assistance">
+          </div>
+          <h3>Responsive Assistance</h3>
+          <p>From inquiries to troubleshooting, our support team is here for you.</p>
+        </div>
+        <div class="service-card service-mt">
+          <span class="service-num" style="background:#fd0bd4;">2</span>
+          <div class="service-img">
+            <img src="https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/focus-09-1024x683.jpg" alt="Tailored Solutions">
+          </div>
+          <h3>Tailored Solutions</h3>
+          <p>Our experts understand your unique requirements, delivering solutions.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-num" style="background:#4b3d06;">3</span>
+          <div class="service-img">
+            <img src="https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/focus-06-1024x683.jpg" alt="Continuous Delight">
+          </div>
+          <h3>Continuous Delight</h3>
+          <p>Client happiness is an ongoing commitment and we always refine our services.</p>
+        </div>
+      </div>
+      <div class="services-cta">
+        <a href="#" class="btn btn-skew">MORE INFO</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section-contact">
+    <div class="contact-image">
+      <div style="height:600px;"></div>
+    </div>
+    <div class="contact-form-wrap">
+      <div class="section-head">
+        <h2>Reach Out and Connect</h2>
+        <h5>Connecting for Excellence</h5>
+      </div>
+      <div class="contact-info">
+        <div>
+          <h4>Address :</h4>
+          <p>Miami, FL 33139</p>
+        </div>
+        <div>
+          <h4>Email :</h4>
+          <p>info@mail.com</p>
+        </div>
+        <div>
+          <h4>Phone :</h4>
+          <p>+1 392 483 387</p>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <input type="text" placeholder="Name" required>
+          <input type="text" placeholder="Surname" required>
+        </div>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" rows="6" required></textarea>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section-pricing">
+    <div class="section-bg"></div>
+    <div class="container">
+      <div class="pricing-left">
+        <div class="pricing-sticky">
+          <h5>Tailored solutions to fit your budget</h5>
+          <h2>Unbeatable Value</h2>
+          <p>We believe in transparency and simplicity when it comes to pricing, ensuring that you get the best value for your investment. Our pricing structure is flexible, allowing you to choose the plan that aligns perfectly with your business goals.</p>
+          <p>With each plan, you'll gain access to a wealth of features and benefits that will empower your business to thrive. We are committed to providing exceptional value, and our pricing reflects our dedication to your success.</p>
+          <a href="#" class="btn btn-primary">More info</a>
+        </div>
+      </div>
+      <div class="pricing-right">
+        <div class="pricing-row">
+          <div class="pricing-icon">
+            <img src="https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/pricelist-01.jpg" alt="Service Fees">
+          </div>
+          <div class="pricing-info">
+            <h4>Service Fees</h4>
+            <p>Providing exceptional value</p>
+          </div>
+          <div class="pricing-amount">
+            <h4>$ 30</h4>
+            <p><u>SALE</u></p>
+          </div>
+        </div>
+        <div class="pricing-row">
+          <div class="pricing-icon">
+            <img src="https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/pricelist-04.jpg" alt="Cost Breakdown">
+          </div>
+          <div class="pricing-info">
+            <h4>Cost Breakdown</h4>
+            <p>We believe in transparent pricing</p>
+          </div>
+          <div class="pricing-amount">
+            <h4>$ 48</h4>
+            <p><u>BEST</u></p>
+          </div>
+        </div>
+        <div class="pricing-row">
+          <div class="pricing-icon">
+            <img src="https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/pricelist-06.jpg" alt="Membership Levels">
+          </div>
+          <div class="pricing-info">
+            <h4>Membership Levels</h4>
+            <p>Unique set of good benefits</p>
+          </div>
+          <div class="pricing-amount">
+            <h4>$ 68</h4>
+            <p><u>NEW</u></p>
+          </div>
+        </div>
+        <div class="pricing-row">
+          <div class="pricing-icon">
+            <img src="https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/pricelist-02.jpg" alt="Price Points">
+          </div>
+          <div class="pricing-info">
+            <h4>Price Points</h4>
+            <p>Various budget, affordability</p>
+          </div>
+          <div class="pricing-amount">
+            <h4>$ 89</h4>
+            <p><u>PROMO</u></p>
+          </div>
+        </div>
+        <div class="pricing-row">
+          <div class="pricing-icon">
+            <img src="https://www.nicdarkthemes.com/bakery/candy-shop-wordpress-theme/wp-content/uploads/sites/6/2023/10/pricelist-03.jpg" alt="Subscription">
+          </div>
+          <div class="pricing-info">
+            <h4>Subscription</h4>
+            <p>Enjoy consistent access</p>
+          </div>
+          <div class="pricing-amount">
+            <h4>$ 30</h4>
+            <p><u>SALE</u></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-cta">
+    <div class="cta-overlay"></div>
+    <div class="container">
+      <h1>Elevate Your Experience & Discover Quality</h1>
+      <p>Empowering your dreams, one step at a time. Experience excellence with us, where innovation meets customer satisfaction with custom solutions for you.</p>
+      <a href="#" class="btn btn-primary btn-shrink">START NOW</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-bg"></div>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col footer-col-wide">
+          <h2>Elevating Potential, Building Dreams Together</h2>
+        </div>
+        <div class="footer-col">
+          <h3>Address :</h3>
+          <p>1080 Brickell Ave</p>
+          <p>Miami - Florida</p>
+          <p>U.S. of America</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Contact :</h3>
+          <p><u>info@email.com</u></p>
+          <h2>+ 01 4656878</h2>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-links">
+          <span>Partnerships</span>
+          <span class="dot">•</span>
+          <span>Customer Support</span>
+          <span class="dot">•</span>
+          <span>Privacy Policy</span>
+        </div>
+        <div class="payment-icons">
+          <i class="fab fa-cc-visa"></i>
+          <i class="fab fa-cc-paypal"></i>
+          <i class="fab fa-cc-mastercard"></i>
+          <i class="fab fa-cc-stripe"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
